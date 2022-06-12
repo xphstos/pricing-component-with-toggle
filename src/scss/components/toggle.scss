@@ -1,0 +1,26 @@
+.billing__toggle {
+  --s: calc(2rem - 8px);
+  --p: 4px;
+  height: var(--s);
+  padding: var(--p);
+  box-sizing: content-box;
+  aspect-ratio: 2;
+  border-radius: var(--s);
+  background: radial-gradient(farthest-side, #fff 90%, #0000) left/var(--s) 100%
+      content-box no-repeat,
+    var(--gradient);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0;
+  transition: 0.3s;
+
+  &:hover {
+    opacity: 0.75;
+  }
+
+  &:checked {
+    background-position: right;
+  }
+}

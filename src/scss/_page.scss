@@ -1,0 +1,13 @@
+@use "./helpers" as *;
+
+.section {
+  &__title {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  &__billing {
+    margin-bottom: 4rem;
+  }
+}

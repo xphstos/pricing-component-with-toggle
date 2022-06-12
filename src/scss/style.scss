@@ -1,0 +1,26 @@
+@forward "./variables";
+@forward "./reset";
+@forward "./components/index";
+@forward "./page";
+
+body {
+  font: 700 15px / 1.5 "Montserrat", sans-serif;
+  background: url("../images/bg-top.svg") no-repeat top right / 20vw auto,
+    url("../images/bg-bottom.svg") no-repeat bottom left / 20vw auto,
+    var(--off-white);
+  color: var(--off-black);
+
+  @media screen and (max-width: 768px) {
+    background: url("../images/bg-top.svg") no-repeat top right / 40vw auto,
+      var(--off-white);
+  }
+}
+
+main {
+  @extend %container;
+  --container: 1048px;
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+  padding-block: 2rem;
+}

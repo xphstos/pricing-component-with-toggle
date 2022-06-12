@@ -1,0 +1,26 @@
+@use "sass:color" as *;
+@use "../functions" as *;
+
+.billing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+
+  &__period {
+    transition: opacity 0.3s;
+
+    @at-root {
+      [data-billing="monthly"] & {
+        &--annually {
+          opacity: 0.5;
+        }
+      }
+      [data-billing="annually"] & {
+        &--monthly {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}
