@@ -6,4 +6,4 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
 ### Links
 
 - Solution URL: [https://github.com/xphstos/pricing-component-with-toggle](https://github.com/xphstos/pricing-component-with-toggle)
-- Live Site URL: [https://96e154ac7696e43ad1e9bee9ab7d5fc74becd409.surge.sh/](https://96e154ac7696e43ad1e9bee9ab7d5fc74becd409.surge.sh/)
+- Live Site URL: [https://4c0179a666e7d8d5d3987ccd1b4fc1d609e52cfa.surge.sh/](https://4c0179a666e7d8d5d3987ccd1b4fc1d609e52cfa.surge.sh/)
